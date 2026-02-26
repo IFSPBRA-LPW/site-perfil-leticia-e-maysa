@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Jost;
+}
+img {
+    width: 10px;
+}
+
+.ola{
+    background-color: rgb(86, 16, 133);
+    color: rgb(240, 237, 234);
+    
+}

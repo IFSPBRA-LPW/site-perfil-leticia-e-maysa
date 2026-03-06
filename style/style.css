@@ -13,21 +13,16 @@ body{
 }
 section, header{
     background-color: aliceblue;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 0;
-
+    flex-basis: 200;
 }
 img {
-    margin-top: 2vh;
+    margin-top: 2vw;
     width: 50%;
     border-radius: 50%;
 }
 
 .titulo {
-    
-    width: 10vh;
+    font-size: 8vh;
     color: rgb(98, 19, 201);
 }
 
@@ -35,10 +30,27 @@ img {
     background-color: rgb(86, 16, 133);
     color: rgb(240, 237, 234);
     text-align: center;
+    max-width: 80vh;
+    margin-bottom: 8vh;
 }
 
 footer{
-    line-height: 10vh;
+    line-height: 10vw;
     background-color: rgb(55, 8, 99);
+}
+
+
+
+@media (min-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        gap:10vh;
+    }
+}
+
+.sobrenos {
+    max-width: 60vh;
 }
 
